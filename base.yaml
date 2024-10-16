@@ -1,0 +1,49 @@
+version: 1.0
+resources:
+  - name: oxmysql
+    url: https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
+    folder: oxmysql
+
+  - name: async
+    url: https://github.com/ESX-Org/async/archive/refs/heads/master.zip
+    folder: async
+
+  - name: cron
+    url: https://github.com/ESX-Org/cron/archive/refs/heads/master.zip
+    folder: cron
+
+  - name: es_extended
+    url: https://github.com/esx-framework/es_extended/releases/latest/download/es_extended.zip
+    folder: es_extended
+
+  - name: ox_inventory
+    url: https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
+    folder: ox_inventory
+
+  - name: ox_lib
+    url: https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+    folder: ox_lib
+
+  - name: ox_doorlock
+    url: https://github.com/overextended/ox_doorlock/releases/latest/download/ox_doorlock.zip
+    folder: ox_doorlock
+
+  - name: ox_target
+    url: https://github.com/overextended/ox_target/releases/latest/download/ox_target.zip
+    folder: ox_target
+
+  - name: esx_menu_default
+    url: https://github.com/ESX-Org/esx_menu_default/archive/refs/heads/master.zip
+    folder: esx_menu_default
+
+  - name: esx_menu_list
+    url: https://github.com/ESX-Org/esx_menu_list/archive/refs/heads/master.zip
+    folder: esx_menu_list
+
+  - name: esx_menu_dialog
+    url: https://github.com/ESX-Org/esx_menu_dialog/archive/refs/heads/master.zip
+    folder: esx_menu_dialog
+
+  - name: esx_skin
+    url: https://github.com/ESX-Org/esx_skin/archive/refs/heads/master.zip
+    folder: esx_skin
